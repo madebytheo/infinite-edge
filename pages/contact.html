@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+      rel="stylesheet" />
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Contact Infinite Edge</title>
+  </head>
+  <body>
+    <nav class="container">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <header>
+        <h1>Contact Us</h1>
+        <p>
+          If you would like to engage Infinite Edge for accounting, tax, or
+          advisory services, please complete the form below. This allows us to
+          understand your requirements and respond appropriately.
+        </p>
+      </header>
+
+      <section>
+        <h2>How We Can Assist</h2>
+        <p>
+          We work with individuals, businesses, trusts, and non-profit
+          organizations across South Africa. All enquiries are reviewed to
+          ensure we can provide appropriate and effective support.
+        </p>
+      </section>
+
+      <section>
+        <h2>Enquiry Form</h2>
+
+        <form>
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label
+              >Full Name <input type="text" name="full-name" required
+            /></label>
+            <label
+              >Email Address <input type="email" name="email" required
+            /></label>
+            <label
+              >Contact Number <input type="tel" name="contact-number"
+            /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>About Your Enquiry</legend>
+
+            <label>
+              Enquiry Type
+              <select name="enquiry_type" required>
+                <option value="">Select an option</option>
+                <option value="individual">Individual Services</option>
+                <option value="business">Business Services</option>
+                <option value="trust_npo">Trust or NPO Services</option>
+                <option value="general">General Enquiry</option>
+              </select>
+            </label>
+
+            <label>
+              Services Required
+              <select name="services_required">
+                <option value="">Select one or more</option>
+                <option value="tax">Tax Services</option>
+                <option value="accounting">Accounting / Bookkeeping</option>
+                <option value="payroll">Payroll</option>
+                <option value="advisory">Advisory / Support</option>
+              </select>
+            </label>
+
+            <label>
+              Brief Description of Your Requirements
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Please provide a brief overview of your situation or requirements."></textarea>
+            </label>
+          </fieldset>
+
+          <button type="submit">Submit Enquiry</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>What Happens Next</h2>
+        <p>
+          Once your enquiry has been received, a member of our team will review
+          the information provided and contact you to discuss next steps. This
+          may include requesting additional information or scheduling an initial
+          consultation.
+        </p>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
